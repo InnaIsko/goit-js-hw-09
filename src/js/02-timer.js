@@ -32,6 +32,7 @@ const options = {
 
 function startTimer() {
   disableInputOn();
+  disableButtonStartOn();
   intervalId = setInterval(() => {
     const currentTime = new Date();
     const deltaTime = currentData - currentTime;
